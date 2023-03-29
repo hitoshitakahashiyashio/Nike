@@ -46,7 +46,7 @@ html {
     margin: 5px 0;
     font-size: 12px;
     padding: 5px 10px;
-    border-right: solid#000;
+    border-right: 0.5px solid#000;
 }
 
 .header-nav ul :nth-child(4) {
@@ -251,6 +251,7 @@ main {
     margin: 30px auto;
 }
 
+
 .collection-1 :nth-child(1) {
     font-size: 15px;
     width: 190px;
@@ -280,12 +281,17 @@ main {
     display: flex;
 }
 
+.leggings picture {
+    flex: 1;
+}
+
 .leggings img {
     width: 100%;
 }
 
 .collection-1 {
     display: flex;
+    justify-content: center;
 }
 
 .best {
