@@ -309,12 +309,8 @@ main {
     margin-top: 30px;
 }
 
-.best-seller ul li {
-    width: 30%;
-}
-
 .best-seller ul li img {
-    width: 300px;
+    max-width: 100%;
 }
 
 .best-seller ul li figure {
@@ -415,7 +411,7 @@ main {
 .footer-nav ul {
     display: flex;
     justify-content: space-around;
-    margin: 0 10px;
+    margin: 0 300px;
 }
 
 .footer-nav ul li {
@@ -465,7 +461,7 @@ footer {
 
 .footer .sns {
     display: block;
-    margin-left: 33%;
+    margin-left: 650px;
 }
 
 .footer .sns a img {
